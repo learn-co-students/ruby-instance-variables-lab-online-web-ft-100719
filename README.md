@@ -1,4 +1,4 @@
-# Instance Variables
+l# Instance Variables
 
 ## Objectives
 1. Define instance variables.
@@ -51,7 +51,7 @@ end
 
 Here we've defined two instance methods, the `name=`, or "name equals" method, and the `name` method. The first method takes in an argument of a dog's name and sets that argument equal to a variable, `this_dogs_name`. The second method is responsible for reporting, or reading the name. The methods act as mechanisms to expose data from inside of the object to the outside world.
 
-Our two methods therefore are responsible for "setting" and "getting" an individual dog's name. The `name` method is aptly called a "getter". This is because it "gets" a property for us. The `name=` method is called a "setter" because it "sets" a property for us. Setter properties are all are written like this: 
+Our two methods therefore are responsible for "setting" and "getting" an individual dog's name. The `name` method is aptly called a "getter". This is because it "gets" a property for us. The `name=` method is called a "setter" because it "sets" a property for us. Setter properties are all are written like this:
 
 ```ruby
 property=
